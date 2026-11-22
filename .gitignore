@@ -1,0 +1,37 @@
+# Secrets and environments
+.env
+.venv/
+venv/
+
+# Python build / cache artefacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Raw datasets are intentionally not committed (licences + size)
+data/raw/*
+!data/raw/.gitkeep
+!data/raw/m5/
+data/raw/m5/*
+!data/raw/m5/.gitkeep
+!data/raw/dataco/
+data/raw/dataco/*
+!data/raw/dataco/.gitkeep
+!data/raw/olist/
+data/raw/olist/*
+!data/raw/olist/.gitkeep
+
+# Local ingestion manifests and run reports
+reports/

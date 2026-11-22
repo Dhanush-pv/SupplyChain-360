@@ -1,0 +1,16 @@
+customer_id,customer_unique_id,customer_zip_code_prefix,customer_city,customer_state
+c1,u1,01000,sao paulo,SP
+c2,u2,02000,sao paulo,SP
+c3,u3,03000,sao paulo,SP
+c4,u4,04000,sao paulo,SP
+c5,u5,05000,sao paulo,SP
+c6,u6,06000,sao paulo,SP
+c7,u7,07000,sao paulo,SP
+c8,u8,08000,sao paulo,SP
+c9,u9,09000,sao paulo,SP
+c10,u10,10000,sao paulo,SP
+c11,u11,11000,sao paulo,SP
+c12,u12,12000,sao paulo,SP
+c13,u13,13000,sao paulo,SP
+c14,u14,14000,sao paulo,SP
+c15,u15,15000,sao paulo,SP

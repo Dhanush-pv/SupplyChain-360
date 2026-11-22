@@ -1,0 +1,30 @@
+# Put downloaded source files in the paths below. The ingestor preserves each file
+# as-is in the Bronze zone; it does not clean, rename columns, or transform records.
+sources:
+  m5:
+    description: Walmart M5 Forecasting data (sales, calendar and prices)
+    directory: data/raw/m5
+    expected_files: [sales_train_validation.csv, calendar.csv, sell_prices.csv]
+    allowed_extensions: [.csv]
+    license_note: Kaggle competition terms apply; review current terms before use or redistribution.
+  dataco:
+    description: DataCo Smart Supply Chain dataset
+    directory: data/raw/dataco
+    expected_files: [DataCoSupplyChainDataset.csv]
+    allowed_extensions: [.csv]
+    license_note: Verify the specific download source, license and attribution requirements.
+  olist:
+    description: Olist Brazilian E-Commerce public dataset
+    directory: data/raw/olist
+    expected_files:
+      - olist_orders_dataset.csv
+      - olist_order_items_dataset.csv
+      - olist_products_dataset.csv
+      - olist_customers_dataset.csv
+      - olist_sellers_dataset.csv
+      - olist_order_payments_dataset.csv
+      - olist_order_reviews_dataset.csv
+      - olist_geolocation_dataset.csv
+      - product_category_name_translation.csv
+    allowed_extensions: [.csv]
+    license_note: Verify the current dataset terms and attribution requirements at the download source.

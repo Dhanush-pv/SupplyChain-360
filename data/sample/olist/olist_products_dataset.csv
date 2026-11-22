@@ -1,0 +1,9 @@
+product_id,product_category_name,product_name_lenght,product_description_lenght,product_photos_qty,product_weight_g,product_length_cm,product_height_cm,product_width_cm
+p1,informatica_acessorios,33,565,3,1482,34,17,13
+p2,esporte_lazer,46,358,1,2026,10,22,6
+p3,brinquedos,42,329,1,2769,11,5,12
+p4,beleza_saude,32,120,5,724,17,9,20
+p5,informatica_acessorios,27,677,2,2004,32,13,29
+p6,esporte_lazer,43,271,5,2587,40,8,29
+p7,brinquedos,30,418,1,2470,10,14,23
+p8,beleza_saude,44,506,2,411,28,25,12
